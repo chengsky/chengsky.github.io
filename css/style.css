@@ -115,8 +115,8 @@ button::-moz-focus-inner {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  src: url("fonts/fontawesome-webfont.eot?v=#4.0.3");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=#4.0.3") format("woff"), url("fonts/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"), url("fonts/fontawesome-webfont.svg#fontawesomeregular?v=#4.0.3") format("svg");
+  src: url("font-icon-path.eot?v=#font-icon-version");
+  src: url("font-icon-path.eot?#iefix&v=#font-icon-version") format("embedded-opentype"), url("font-icon-path.woff?v=#font-icon-version") format("woff"), url("font-icon-path.ttf?v=#font-icon-version") format("truetype"), url("font-icon-path.svg#fontawesomeregular?v=#font-icon-version") format("svg");
 }
 html,
 body,
@@ -407,7 +407,7 @@ body {
   opacity: 1;
 }
 .nav-icon {
-  font-family: FontAwesome;
+  font-family: font-icon;
   text-align: center;
   font-size: 14px;
   width: 14px;
@@ -497,7 +497,7 @@ body {
   top: 50%;
   right: 10px;
   margin-top: -7px;
-  font: 13px FontAwesome;
+  font: 13px font-icon;
   border: none;
   background: none;
   color: #bbb;
@@ -728,7 +728,7 @@ a.article-title:hover {
 }
 .article-comment-link:before {
   content: "\f075";
-  font-family: FontAwesome;
+  font-family: font-icon;
   padding-right: 8px;
 }
 .article-share-link {
@@ -738,7 +738,7 @@ a.article-title:hover {
 }
 .article-share-link:before {
   content: "\f064";
-  font-family: FontAwesome;
+  font-family: font-icon;
   padding-right: 6px;
 }
 #article-nav {
@@ -880,7 +880,7 @@ a.article-title:hover {
 .article-share-pinterest:before,
 .article-share-google:before {
   font-size: 20px;
-  font-family: FontAwesome;
+  font-family: font-icon;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -1119,7 +1119,7 @@ a.article-title:hover {
 }
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "PT Serif", "Microsoft Yahei";
 }
 .article-entry code {
   background: #eee;
@@ -1178,7 +1178,7 @@ a.article-title:hover {
 }
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "PT Serif", "Microsoft Yahei";
   margin: 0;
 }
 .article-entry .gist .gist-file .gist-data {
